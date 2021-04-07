@@ -24,6 +24,7 @@ header > nav > ul
   padding: 0;
   width: 20%;
 }
+
 @media screen and (max-width: 1024px)
 {
 	header > nav 
@@ -90,7 +91,7 @@ header > nav > ul > li > a
 {
 	color:#000000; 
 	text-decoration: none;
-	padding: 30px 30px;
+	padding: 25px;
 }
 
 @media (max-width: 1024px)
@@ -129,7 +130,7 @@ header > nav > ul > li > a:hover
 {
 	font-family: raleway;
 	text-decoration: none;
-	padding-right: 10px;
+	padding-left: 20px;
 	color: #3399ff;
 	font-weight: bold;
 }
@@ -216,6 +217,11 @@ input
 	font-family: "Raleway Black";
 }
 
+input:focus
+{
+	border-color: white;
+}
+
 @media screen and (max-width: 1024px)
 {
 	input
@@ -300,7 +306,6 @@ button > p:hover
 	{
 		background-color: white;
 		color: #0064fb;
-		transform: scale(1.1);
 	}
 }
 
@@ -339,7 +344,7 @@ button > p:hover
 	width: 5%;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1280px)
 {
 	.filters
 	{
@@ -1479,9 +1484,12 @@ footer > a
 	}
 }
 
+@media screen and (max-width: 1024px)
+{
 body
 {
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;
+}
 }
